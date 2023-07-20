@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation flex">
+            <div class="logo">
+                <img src="./images/Netflix-Logo.wine.svg" alt="">
+            </div>
+            <div class="navbar flex" id="navbar">
+                <div class="left-nav flex">
+                    <ul class="flex menu">
+                        <li>Home</li>
+                        <li>TV shows</li>
+                        <li>Movies</li>
+                        <li>New & popular</li>
+                        <li>My list</li>
+                    </ul>
+                </div>
+                <div class="right-nav flex">
+                    <span class="fa fa-search fa" aria-hidden="true">
+                        <p>children</p>
+                    </span>
+                    <span class="fa fa-bell-o fa" aria-hidden="true"></span>
+                    <img src="./images/vecteezy_happy-monkey-face-icon-.png" alt="">
+                    <span class="fa fa-caret-down" aria-hidden="true"></span>
+                </div>
+            </div>
+            <span class="togglebtn" onclick="toggle()">&#9776;</span>
+        </div>
+
+        <div class="inner">
+            <div class="banner flex">
+                <h3>Marvel's Studio's</h3>
+                <h3>Avengers : End Game</h3>
+                <div class="banner-button flex">
+                    <button class="btn"><span class="fa fa-play play" aria-hidden="true"></span>Play</button>
+                    <button class="btn btn1"><span class="fa fa-info-circle play info" aria-hidden="true"></span>More info</button>
+                </div>
+            </div>
+
+            <div class="carousal">
+                <h3>New Release</h3>
+                <div class="carousal-slider">
+                    <div class="carousal-list">
+                        <div class="carousal-item">
+                            <img src="./images/Avengers2.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/HD-wallpaper-batman-the-batman-dc-comics-the-batman-movie.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/movies-02122016-deadpool-superJumbo.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/Captain-America.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/doctor-strange-1645153462.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/HD-wallpaper-guardians-of-the-galaxy-movie-poster-guardians-of-the-galaxy-movies-star-lord-gamora-groot-rocket-raccoon-drax-the-destroyer.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/Ironman.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/thormovie.jpg" alt="">
+                        </div>
+                        <div class="carousal-item">
+                            <img src="./images/Avengers2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="video-container">
+        <div class="color-overlay"></div>
+        <video autoplay loop muted>
+            <source src="./video/Avengers.mp4">
+        </video>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
