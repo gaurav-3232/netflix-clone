@@ -197,7 +197,7 @@ ul li {
     position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 2700px;
     height: 250px;
     padding: 50px;
 }
@@ -208,6 +208,7 @@ ul li {
     align-items: center;
     justify-content: space-around;
     padding: 0 50px;
+    width: 100%;
 }
 
 .carousal-item {
